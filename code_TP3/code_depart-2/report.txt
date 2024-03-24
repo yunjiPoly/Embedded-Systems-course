@@ -1,0 +1,202 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /uart_test_classes
+=== Design Unit: work.uart_test_classes
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          6        na        na        na
+            Covergroup Bins         58        58         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /uart_test_classes/Uart_cover_group/cg          100.00%        100          -    Covered              
+    covered/total bins:                                    58         58          -                      
+    missing/total bins:                                     0         58          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint baudrate                               100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_br_9600                                   613          1          -    Covered              
+        bin bin_br_19200                                  663          1          -    Covered              
+        bin bin_br_115200                                 663          1          -    Covered              
+        bin bin_br_153600                                 663          1          -    Covered              
+        bin bin_br_921600                                 612          1          -    Covered              
+        default bin others                                  0                     -    ZERO                 
+    Coverpoint parite                                 100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_NONE                                      766          1          -    Covered              
+        bin bin_EVEN                                     1224          1          -    Covered              
+        bin bin_ODD                                      1224          1          -    Covered              
+    Coverpoint dut_status                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_rx_success                                730          1          -    Covered              
+        bin bin_tx_success                               2022          1          -    Covered              
+        bin bin_parite_error                              658          1          -    Covered              
+    Coverpoint ref_status                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_tx_success                               1987          1          -    Covered              
+        bin bin_rx_success                               1468          1          -    Covered              
+    Coverpoint err_inject_tx                          100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_noError                                  1226          1          -    Covered              
+        bin bin_pError                                    827          1          -    Covered              
+        bin bin_dError                                   1161          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                42         42          -                      
+        missing/total bins:                                 0         42          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin c01                                         5          1          -    Covered              
+            bin c02                                         2          1          -    Covered              
+            bin c03                                         2          1          -    Covered              
+            bin c04                                         9          1          -    Covered              
+            bin c05                                        17          1          -    Covered              
+            bin c06                                         2          1          -    Covered              
+            bin c07                                         8          1          -    Covered              
+            bin c08                                        10          1          -    Covered              
+            bin c09                                         3          1          -    Covered              
+            bin c10                                        25          1          -    Covered              
+            bin c11                                         1          1          -    Covered              
+            bin c12                                         3          1          -    Covered              
+            bin c13                                         4          1          -    Covered              
+            bin c14                                         2          1          -    Covered              
+            bin c15                                        25          1          -    Covered              
+            bin c16                                         2          1          -    Covered              
+            bin c17                                         1          1          -    Covered              
+            bin c18                                         7          1          -    Covered              
+            bin c19                                         2          1          -    Covered              
+            bin c20                                        24          1          -    Covered              
+            bin c21                                         6          1          -    Covered              
+            bin c22                                         4          1          -    Covered              
+            bin c23                                         2          1          -    Covered              
+            bin c24                                         2          1          -    Covered              
+            bin c25                                        20          1          -    Covered              
+            bin c26                                         4          1          -    Covered              
+            bin c27                                         6          1          -    Covered              
+            bin c28                                         3          1          -    Covered              
+            bin c29                                         5          1          -    Covered              
+            bin c30                                        24          1          -    Covered              
+            bin c31                                         7          1          -    Covered              
+            bin c32                                         3          1          -    Covered              
+            bin c33                                         3          1          -    Covered              
+            bin c34                                        10          1          -    Covered              
+            bin c35                                        10          1          -    Covered              
+            bin c36                                         5          1          -    Covered              
+            bin c37                                         4          1          -    Covered              
+            bin c38                                         2          1          -    Covered              
+            bin c39                                         3          1          -    Covered              
+            bin c40                                        16          1          -    Covered              
+            bin c41                                       555          1          -    Covered              
+            bin c42                                      1784          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /uart_test_classes/Uart_cover_group/cg          100.00%        100          -    Covered              
+    covered/total bins:                                    58         58          -                      
+    missing/total bins:                                     0         58          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint baudrate                               100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_br_9600                                   613          1          -    Covered              
+        bin bin_br_19200                                  663          1          -    Covered              
+        bin bin_br_115200                                 663          1          -    Covered              
+        bin bin_br_153600                                 663          1          -    Covered              
+        bin bin_br_921600                                 612          1          -    Covered              
+        default bin others                                  0                     -    ZERO                 
+    Coverpoint parite                                 100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_NONE                                      766          1          -    Covered              
+        bin bin_EVEN                                     1224          1          -    Covered              
+        bin bin_ODD                                      1224          1          -    Covered              
+    Coverpoint dut_status                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_rx_success                                730          1          -    Covered              
+        bin bin_tx_success                               2022          1          -    Covered              
+        bin bin_parite_error                              658          1          -    Covered              
+    Coverpoint ref_status                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_tx_success                               1987          1          -    Covered              
+        bin bin_rx_success                               1468          1          -    Covered              
+    Coverpoint err_inject_tx                          100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_noError                                  1226          1          -    Covered              
+        bin bin_pError                                    827          1          -    Covered              
+        bin bin_dError                                   1161          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                42         42          -                      
+        missing/total bins:                                 0         42          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin c01                                         5          1          -    Covered              
+            bin c02                                         2          1          -    Covered              
+            bin c03                                         2          1          -    Covered              
+            bin c04                                         9          1          -    Covered              
+            bin c05                                        17          1          -    Covered              
+            bin c06                                         2          1          -    Covered              
+            bin c07                                         8          1          -    Covered              
+            bin c08                                        10          1          -    Covered              
+            bin c09                                         3          1          -    Covered              
+            bin c10                                        25          1          -    Covered              
+            bin c11                                         1          1          -    Covered              
+            bin c12                                         3          1          -    Covered              
+            bin c13                                         4          1          -    Covered              
+            bin c14                                         2          1          -    Covered              
+            bin c15                                        25          1          -    Covered              
+            bin c16                                         2          1          -    Covered              
+            bin c17                                         1          1          -    Covered              
+            bin c18                                         7          1          -    Covered              
+            bin c19                                         2          1          -    Covered              
+            bin c20                                        24          1          -    Covered              
+            bin c21                                         6          1          -    Covered              
+            bin c22                                         4          1          -    Covered              
+            bin c23                                         2          1          -    Covered              
+            bin c24                                         2          1          -    Covered              
+            bin c25                                        20          1          -    Covered              
+            bin c26                                         4          1          -    Covered              
+            bin c27                                         6          1          -    Covered              
+            bin c28                                         3          1          -    Covered              
+            bin c29                                         5          1          -    Covered              
+            bin c30                                        24          1          -    Covered              
+            bin c31                                         7          1          -    Covered              
+            bin c32                                         3          1          -    Covered              
+            bin c33                                         3          1          -    Covered              
+            bin c34                                        10          1          -    Covered              
+            bin c35                                        10          1          -    Covered              
+            bin c36                                         5          1          -    Covered              
+            bin c37                                         4          1          -    Covered              
+            bin c38                                         2          1          -    Covered              
+            bin c39                                         3          1          -    Covered              
+            bin c40                                        16          1          -    Covered              
+            bin c41                                       555          1          -    Covered              
+            bin c42                                      1784          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+
